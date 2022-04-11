@@ -7,10 +7,10 @@ import "./main.css"
 
 const Header=(props)=>{
   if (props.data) {
-    var name = props.data.name;
-    var occupation = props.data.occupation;
-    var description = props.data.description;
-    var city = props.data.address.city;
+    var name:String = props.data.name;
+    var occupation:String = props.data.occupation;
+    var description:String = props.data.description;
+    var city:String = props.data.address.city;
     var networks = props.data.social.map(function (network) {
       return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
     });
