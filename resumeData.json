@@ -4,7 +4,7 @@
     "occupation":"Backend Developer",
     "description":"I am a Backend Developer with a passion for creating and maintaining web applications. I have a strong background in web development and have worked with a variety of technologies, including PHP, JavaScript, and MySQL. I am currently working on a project to create a web application for a local business. I am currently looking for a position in the field of web development.",
     "image":"profilepic.jpg",
-    "bio":"I am a Spaniard Backend Developer currently living in Tenerife.  ",
+    "bio":"I am a Spaniard Backend Developer currently living in Tenerife. I have a passion for creating and maintaining web applications. I have a strong background in web development and have worked with a variety of technologies, including PHP, JavaScript, and MySQL. I am currently working on a project to create a web application for a local business. I am currently looking for a position in the field of web development.",
     "email": "michaeljtp1@gmail.com",
     "phone": "+34 617782877",
     "address":{
@@ -19,7 +19,8 @@
            {
         "name":"linkedin",
         "url":"http://linkedin.com",
-        "className":"fa fa-linkedin"
+        "className":"bi bi-linkedin",
+        "role":"img"        
       },
       {
         "name":"github",
