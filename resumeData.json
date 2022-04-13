@@ -1,39 +1,131 @@
 {
   "main": {
-    "name":"Michael Jonay Trujillo Padilla",
-    "occupation":"Backend Developer",
-    "description":"I am a Backend Developer with a passion for creating and maintaining web applications. I have a strong background in web development and have worked with a variety of technologies, including PHP, JavaScript, and MySQL. I am currently working on a project to create a web application for a local business. I am currently looking for a position in the field of web development.",
-    "image":"profilepic.jpg",
-    "bio":"I am a Spaniard Backend Developer currently living in Tenerife. I have a passion for creating and maintaining web applications. I have a strong background in web development and have worked with a variety of technologies, including PHP, JavaScript, and MySQL. I am currently working on a project to create a web application for a local business. I am currently looking for a position in the field of web development.",
+    "name": "Michael Jonay Trujillo Padilla",
+    "occupation": "Backend Developer",
+    "description": "I am a Backend Developer with a passion for creating and maintaining web applications. I have a strong background in web development and have worked with a variety of technologies, including PHP, JavaScript, and MySQL. I am currently working on a project to create a web application for a local business. I am currently looking for a position in the field of web development.",
+    "image": "./resources/images/profilepic.jpg",
+    "bio": "I am a Spaniard Backend Developer currently living in Tenerife. I have a passion for creating and maintaining web applications. I have a strong background in web development and have worked with a variety of technologies, including PHP, JavaScript, and MySQL. I am currently working on a project to create a web application for a local business. I am currently looking for a position in the field of web development.",
     "email": "michaeljtp1@gmail.com",
     "phone": "+34 617782877",
-    "address":{
-      "street":"",
-      "city":"Santa Cruz de Tenerife",
-      "state":"Spain",
+    "address": {
+      "street": "",
+      "city": "Santa Cruz de Tenerife",
+      "state": "Spain",
       "zip": "38007"
     },
     "website": "",
-    "resumedownload":"#",
-    "social":[
-           {
-        "name":"linkedin",
-        "url":"http://linkedin.com",
-        "className":"bi bi-linkedin",
-        "role":"img"        
+    "resumedownload": "#",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "http://linkedin.com",
+        "className": "bi bi-linkedin",
+        "role": "img"
       },
       {
-        "name":"github",
-        "url":"http://instagram.com",
-        "className":"bi bi-github bi",
-        "role":"img"  
+        "name": "github",
+        "url": "http://instagram.com",
+        "className": "bi bi-github bi",
+        "role": "img"
       }
-      
     ]
   },
-  "resume":{
-   
-  },
-  "portfolio":{
-  }
+  "skills": 
+    {
+      
+      "name":"Backend",
+      "backend": [
+        {
+          "name": "Java",
+          "frameworks": [
+            {
+              "name": "Spring"
+                },
+            {
+              "name": "Hibernate"
+                },
+            {
+              "name": "JPA"
+                },
+            {
+              "name": "JavaFx"
+            }
+          ]
+        },
+        {
+          "name": "C#",
+          "frameworks": [
+            {
+              "name": "Entity Framework"
+                },
+            {
+              "name": "WinForms"
+                }
+          ]
+        },
+        {
+          "name": "C++",
+          "frameworks":[]
+        },
+        {
+          "name": "databases",
+          "frameworks": [
+            {
+              "name": "MySQL"
+                },
+            {
+              "name": "PostgreSQL"
+                },
+            {
+              "name": "Transact-SQL"
+                },
+            {
+              "name": "MongoDB"
+                }
+          ]
+        }
+      ]
+    
+    },
+      
+
+
+      "frontend": [
+        {
+          "name": "HTML",
+          "frameworks":[]
+        },
+        {
+          "name": "CSS",
+          "frameworks":[]
+
+        },
+        {
+          "name": "JavaScript",
+
+          "frameworks": [
+            {
+              "name": "Apollo11"
+                },
+            {
+              "name": "React"
+                },
+            {
+              "name": "Node"
+                },
+            {
+              "name": "Express"
+                }
+          ]
+        },
+        {
+          "name": "Typescript",
+          "frameworks":[]
+
+        }
+      ]
+    },
+
+  "resume": {},
+  "portfolio": {}
 }

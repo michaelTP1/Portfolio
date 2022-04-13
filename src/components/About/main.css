@@ -6,3 +6,12 @@
 .profilepic{
     min-width: 100px;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .profilepic{
+        max-width: 10rem;
+    }
+
+    
+}

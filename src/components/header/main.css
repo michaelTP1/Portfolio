@@ -3,7 +3,6 @@ header {
 
     justify-content: center;
     align-items: center;
-    text-align: center;
     overflow: hidden;
     flex-direction: column;
 }
@@ -30,4 +29,36 @@ ul {
 
 a {
     color: rgb(229, 212, 212);
+}
+
+@media screen and (max-width: 600px) {
+    
+    header {
+
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        flex-direction: column;
+    }
+    
+    
+    header .name {
+        font-size: 1.8em;
+    }
+    
+    header .bio {
+        font-size: 1em;
+    }
+    
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        color: rgb(229, 212, 212);
+    }
+    
 }

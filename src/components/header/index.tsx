@@ -1,5 +1,5 @@
 import React from "react";
-import Social from "../Networks";
+import Social from "./Networks";
 import "./main.css";
 
 const Header = (props) => {
@@ -12,22 +12,22 @@ const Header = (props) => {
   }
 
   return (
-    <>
+
       <section id="header">
         <header className="container-fluid vh-100 d-flex bg-dark">
           <div className="row justify-content-center">
             <div className="col-md-8 col-sm-12">
             <h1 className="name responsive-headline text-center">{name}.</h1>
-            <h3 className="bio">
+            <p className="h4 bio text-left">
               I'm a {city} based <span>{occupation}</span> {description}
-            </h3>
+            </p>
             <hr />
             <Social data={social} />
             </div>
           </div>
         </header>
       </section>
-    </>
+
   );
 };
 export default Header;

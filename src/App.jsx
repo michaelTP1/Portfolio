@@ -1,17 +1,21 @@
 
 import "./App.css";
 import Header from "./components/header";
-import {main,portfolio,resume} from "../resumeData.json";
+import {main,portfolio,resume, skills} from "../resumeData.json";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CustomNavbar from "./components/navbar";
 import About from "./components/About";
+
+
 function App() {
+  console.log(skills);
   return (
     <>
+  
     <CustomNavbar/>
     <Header data={main}/>
-    <About data={main}/>
+    <About main={main} skills={skills}/>
     
     </>
     
