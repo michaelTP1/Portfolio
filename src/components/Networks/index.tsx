@@ -6,7 +6,7 @@ export default function Social(social) {
     return (
       <li className="mx-1" key={network.name}>
         <a href={network.url} target="_blank">
-          <i className={network.className} role={network.role}></i>
+          <i className={network.className} role={network.role}  ></i>
         </a>
       </li>
     );

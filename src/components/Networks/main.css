@@ -1,0 +1,13 @@
+
+/*set icon size */
+i {
+  font-size: 1.5rem;
+    color: rgb(150, 189, 223);
+}
+
+@media screen and (max-width: 768px) {
+  i {
+    font-size: 1.1rem;
+  }
+}
+    
