@@ -42,7 +42,7 @@ export default function About(props) {
     <section id="about">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-5 mx-auto">
+          <div className="col-12 col-md-5 mx-auto text-center">
             <img
               src={img}
               className="profilepic img-fluid rounded-circle"
