@@ -6,16 +6,26 @@ import "./main.css";
 
 
 function mapSkillValues(stack) {
+  console.log(stack);
   return (
     <ul>
-      {stack.skill.map(function (skill) {
+      {stack.skills.map(function (skill) {
         return (
           <li key={skill.name}>
-            <i className={skill.className}></i>
             <span>{skill.name}</span>
+            <ul>
+              {skill.frameworks.map(function (frameworks) {
+                return (
+                  <li key={frameworks.name}>
+                    <span>{frameworks.name}</span>
+                  </li>
+                );
+              })}
+            </ul>
           </li>
         );
-      )}
+      })}
+         
     </ul>
   );
   
@@ -29,16 +39,9 @@ export default function About(props) {
     var city: String = props.main.address.city;
     var bio: String = props.main.bio;
     var img: string = props.main.image;
-    var backend = props.skills.backend.map(function (skill) {
-      return (
-        <ul>
-          <li className="backend-list list-group-item" key={skill.name}>
-            <p>{skill.name}</p>
-          </li>
-        </ul>
-      );
-    });
-    var frontend = props.skills.frontend;
+    var backend = props.skills[0];
+    var frontend = props.skills[1];
+  
   }
 
   return (
@@ -60,17 +63,30 @@ export default function About(props) {
             </div>
           </div>
           <div className="col-12 col-md-8 mx-auto">
-            <div className="row text-center">
-              <div className="about-me">
+            <div className="row">
+              <div className="about-me text-center">
                 <h1>
                   <b>About Me</b>
                 </h1>
                 <p>{bio}</p>
               </div>
               <div className="Knowledge">
-                <p className="h2">
+                <p className="h2 text-center">
                   <b>Knowledge</b>
                 </p>
+                <div className="skills row">
+                  <div className="backend col-12 col-md-6">
+                    <p className="h3 text-center"><b>Backend</b></p>
+                    <div className="skill-list mx-auto">{mapSkillValues(backend)}</div>
+                  </div>
+                  <div className="frontend col-12 col-md-6">
+                    <p className="h3 text-center"><b>Frontend</b></p>
+                    <div className="skill-list mx-auto">{mapSkillValues(frontend)}</div>
+                    
+                  </div>  
+                </div>
+               
+               
               </div>
             </div>
           </div>

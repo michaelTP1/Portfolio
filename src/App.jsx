@@ -9,10 +9,8 @@ import About from "./components/About";
 
 
 function App() {
-  console.log(skills);
   return (
     <>
-  
     <CustomNavbar/>
     <Header data={main}/>
     <About main={main} skills={skills}/>
