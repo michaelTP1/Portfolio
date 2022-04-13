@@ -30,23 +30,22 @@
       }
     ]
   },
-  "skills": 
+  "skills": [
     {
-      
-      "name":"Backend",
-      "backend": [
+      "name": "Backend",
+      "skills": [
         {
           "name": "Java",
           "frameworks": [
             {
               "name": "Spring"
-                },
+            },
             {
               "name": "Hibernate"
-                },
+            },
             {
               "name": "JPA"
-                },
+            },
             {
               "name": "JavaFx"
             }
@@ -57,48 +56,46 @@
           "frameworks": [
             {
               "name": "Entity Framework"
-                },
+            },
             {
               "name": "WinForms"
-                }
+            }
           ]
         },
         {
           "name": "C++",
-          "frameworks":[]
+          "frameworks": []
         },
         {
           "name": "databases",
           "frameworks": [
             {
               "name": "MySQL"
-                },
+            },
             {
               "name": "PostgreSQL"
-                },
+            },
             {
               "name": "Transact-SQL"
-                },
+            },
             {
               "name": "MongoDB"
-                }
+            }
           ]
         }
       ]
-    
     },
-      
 
-
-      "frontend": [
+    {
+      "name": "Frontend",
+      "skills": [
         {
           "name": "HTML",
-          "frameworks":[]
+          "frameworks": []
         },
         {
           "name": "CSS",
-          "frameworks":[]
-
+          "frameworks": []
         },
         {
           "name": "JavaScript",
@@ -106,25 +103,25 @@
           "frameworks": [
             {
               "name": "Apollo11"
-                },
+            },
             {
               "name": "React"
-                },
+            },
             {
               "name": "Node"
-                },
+            },
             {
               "name": "Express"
-                }
+            }
           ]
         },
         {
           "name": "Typescript",
-          "frameworks":[]
-
+          "frameworks": []
         }
       ]
-    },
+    }
+  ],
 
   "resume": {},
   "portfolio": {}

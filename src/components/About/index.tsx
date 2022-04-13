@@ -1,6 +1,26 @@
 import React from "react";
 import "./main.css";
 
+
+
+
+
+function mapSkillValues(stack) {
+  return (
+    <ul>
+      {stack.skill.map(function (skill) {
+        return (
+          <li key={skill.name}>
+            <i className={skill.className}></i>
+            <span>{skill.name}</span>
+          </li>
+        );
+      )}
+    </ul>
+  );
+  
+}
+
 export default function About(props) {
   if (props) {
     var name: String = props.main.name;
@@ -9,21 +29,16 @@ export default function About(props) {
     var city: String = props.main.address.city;
     var bio: String = props.main.bio;
     var img: string = props.main.image;
-    var skills = props.skills.map((skill) => {
+    var backend = props.skills.backend.map(function (skill) {
       return (
         <ul>
-          <li>
+          <li className="backend-list list-group-item" key={skill.name}>
             <p>{skill.name}</p>
-            <ul>
-              {skill.frameworks.map((framework) => {
-                return(<li>{framework.name}</li>);
-              })};
-            </ul>
-            
           </li>
         </ul>
       );
     });
+    var frontend = props.skills.frontend;
   }
 
   return (
@@ -56,10 +71,6 @@ export default function About(props) {
                 <p className="h2">
                   <b>Knowledge</b>
                 </p>
-
-                <ul>
-                  <li></li>
-                </ul>
               </div>
             </div>
           </div>
