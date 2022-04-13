@@ -9,6 +9,9 @@
 ul{
     list-style-position: inside;
 }
+.address{
+    list-style: none;
+}
 
 @media screen and (max-width: 768px) {
     

@@ -18,13 +18,13 @@
     "social": [
       {
         "name": "linkedin",
-        "url": "http://linkedin.com",
+        "url": "https://www.linkedin.com/in/michael-jonay-trujillo-padilla-957915207/",
         "className": "bi bi-linkedin",
         "role": "img"
       },
       {
         "name": "github",
-        "url": "http://instagram.com",
+        "url": "https://github.com/michaelTP1",
         "className": "bi bi-github bi",
         "role": "img"
       }
@@ -102,7 +102,7 @@
 
           "frameworks": [
             {
-              "name": "Apollo11"
+              "name": "Apollo"
             },
             {
               "name": "React"
