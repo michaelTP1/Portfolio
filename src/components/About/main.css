@@ -13,11 +13,24 @@ ul{
     list-style: none;
 }
 
+.contact#contact_2{
+    display: none;
+}
 @media screen and (max-width: 768px) {
     
     .profilepic{
         max-width: 10rem;
     }
+    .container{
+        display: flex;
+    }
+    .contact#contact_1{
+        display: none;
+    }
+    .contact#contact_2{
+        display: contents;
+    }
+    
 
     
 }

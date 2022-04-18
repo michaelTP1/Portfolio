@@ -1,6 +1,6 @@
 import React from "react";
 import "./main.css";
-import Social from "./Networks";
+import Social from "./networks";
 
 const Header = (props) => {
   if (props.data) {

@@ -1,11 +1,14 @@
 
 import "./App.css";
 import Header from "./components/header";
-import {main,portfolio,resume, skills} from "../resumeData.json";
+import {main, skills, experience} from "../resumeData.json";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CustomNavbar from "./components/navbar";
-import About from "./components/About";
+import About from "./components/about";
+import Experience from "./components/experience";
+import Skills from "./components/skills";
+import Footer from "./components/footer";
 
 
 function App() {
@@ -13,8 +16,13 @@ function App() {
     <>
     <CustomNavbar/>
     <Header data={main}/>
-    <About main={main} skills={skills}/>
-    
+    <About main={main} />
+    <hr/>
+    <Experience experience={experience}/>
+    <hr/>
+    <Skills skills={skills}/>
+    <hr/>
+    <Footer/>
     </>
     
 
