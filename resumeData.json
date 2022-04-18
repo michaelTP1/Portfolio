@@ -67,7 +67,7 @@
           "frameworks": []
         },
         {
-          "name": "databases",
+          "name": "Databases",
           "frameworks": [
             {
               "name": "MySQL"

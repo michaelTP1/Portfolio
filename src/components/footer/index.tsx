@@ -7,7 +7,7 @@ import "./main.css"
 
 export default function Footer() {
     return (
-        <footer className="footer">
+        <footer id="footer">
             <div className="container">
                 Designed & Developed by Michael Trujillo
             </div>

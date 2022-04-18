@@ -9,6 +9,7 @@ import About from "./components/about";
 import Experience from "./components/experience";
 import Skills from "./components/skills";
 import Footer from "./components/footer";
+import ContactMe from "./components/contact-me";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <hr/>
     <Skills skills={skills}/>
     <hr/>
+    <ContactMe/>
     <Footer/>
     </>
     

@@ -33,9 +33,9 @@ export default function About(props) {
           <div className="col-12 col-md-8 mx-auto ">
             <div className="row">
               <div className="about-me text-center">
-                <h1 className="fw-bold">
+                <p className="h2 fw-bold">
                   About Me
-                </h1>
+                </p>
                 <p className="h4">{bio}</p>
               </div>
            

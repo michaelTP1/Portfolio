@@ -4,9 +4,9 @@ import WorkTimeline from "./work_timeline";
 
 export default function Experience(props) {
   return (
-    <section className="Experience">
+    <section id="experience">
       <div className="container d-flex flex-column">
-        <h1 className="text-center fw-bold ">Work Experience</h1>
+        <p className="h2 text-center fw-bold ">Work Experience</p>
         <hr />
         <WorkTimeline workExperience={props.experience} />
       </div>
