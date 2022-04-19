@@ -18,7 +18,7 @@ export default function About(props) {
   }
 
   return (
-    <section id="about">
+    <div id="about" >
       <div className="container d-flex flex-column">
         <div className="row align-items-center">
           <div className="col-12 col-md-3 mx-auto text-center">
@@ -45,6 +45,6 @@ export default function About(props) {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

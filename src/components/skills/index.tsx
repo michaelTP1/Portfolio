@@ -29,26 +29,28 @@ export default function Skills(props) {
   var backend = props.skills[0];
   var frontend = props.skills[1];
   return (
-    <div className="Knowledge">
-      <p className="h2 text-center">
-        <b>Knowledge</b>
-      </p>
-      <div className="skills row">
-        <div className="col-12 col-md-2" />
-        <div className="backend col-12 col-md-3">
-          <p className="h3 text-center">
-            <b>Backend</b>
-          </p>
-          <div className="skill-list mx-auto">{mapSkillValues(backend)}</div>
+    <div id="skills" className="section">
+      <div className="Knowledge">
+        <p className="h2 text-center">
+          <b>Knowledge</b>
+        </p>
+        <div className="skills row">
+          <div className="col-12 col-md-2" />
+          <div className="backend col-12 col-md-3">
+            <p className="h3 text-center">
+              <b>Backend</b>
+            </p>
+            <div className="skill-list mx-auto">{mapSkillValues(backend)}</div>
+          </div>
+          <div className="col-12 col-md-2" />
+          <div className="frontend col-12 col-md-3">
+            <p className="h3 text-center">
+              <b>Frontend</b>
+            </p>
+            <div className="skill-list mx-auto">{mapSkillValues(frontend)}</div>
+          </div>
+          <div className="col-12 col-md-2" />
         </div>
-        <div className="col-12 col-md-2" />
-        <div className="frontend col-12 col-md-3">
-          <p className="h3 text-center">
-            <b>Frontend</b>
-          </p>
-          <div className="skill-list mx-auto">{mapSkillValues(frontend)}</div>
-        </div>
-        <div className="col-12 col-md-2" />
       </div>
     </div>
   );

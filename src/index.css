@@ -8,3 +8,9 @@ a:active{
 a{
     color: black;
 }
+body {
+    position: relative;
+  }
+  section{
+    padding-top: 56px;
+}

@@ -13,7 +13,7 @@ const Header = (props) => {
 
   return (
 
-      <section id="header">
+      <div  id="header">
         <header className="container-fluid vh-100 d-flex bg-dark">
           <div className="row justify-content-center">
             <div className="col-md-8 col-sm-12">
@@ -26,7 +26,7 @@ const Header = (props) => {
             </div>
           </div>
         </header>
-      </section>
+      </div>
 
   );
 };
