@@ -1,0 +1,11 @@
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: lightblue;
+    background-color: transparent;
+    border: 1px solid darkblue;
+    padding: 1.25rem 1.75rem;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
