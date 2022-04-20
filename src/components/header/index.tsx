@@ -1,6 +1,8 @@
 import React from "react";
 import "./main.css";
 import Social from "./networks";
+import { useNav } from '../../customHooks/useNav';
+
 
 const Header = (props) => {
   if (props.data) {
@@ -11,10 +13,12 @@ const Header = (props) => {
     var social = props.data.social;
   }
 
+  const headerRef= useNav("Header");
+
   return (
 
-      <div  id="header">
-        <header className="container-fluid vh-100 d-flex bg-dark">
+      <div ref={headerRef}  id="header">
+        <header className="container-fluid vh-100 d-flex">
           <div className="row justify-content-center">
             <div className="col-md-8 col-sm-12">
             <h1 className="name responsive-headline text-center">{name}.</h1>

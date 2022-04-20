@@ -1,7 +1,7 @@
 import React from "react";
 import Contact from "./contact";
 import "./main.css";
-
+import { useNav } from '../../customHooks/useNav';
 
 
 
@@ -16,9 +16,10 @@ export default function About(props) {
     var addressInfo = props.main.address;
      
   }
+  const aboutRef= useNav("About");
 
   return (
-    <div id="about" >
+    <div ref={aboutRef} id="about" >
       <div className="container d-flex flex-column">
         <div className="row align-items-center">
           <div className="col-12 col-md-3 mx-auto text-center">

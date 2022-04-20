@@ -5,12 +5,49 @@ a:active{
     color: #000000;
     text-decoration: none;
 }
-a{
-    color: black;
+:root{
+    --darkest-blue: 0,18,25;
+    --darker-blue: 26,23,39;
+    --dark-blue: 0,95,115;
+    --blue: 10,147,150;
+    --light-blue: 148, 210, 189;
+    --darker-gray: rgb(25, 25, 25);
+    --darker-gray: 25, 25, 25;
+    --dark-gray: rgb(51, 51, 51);
+    --dark-gray: 51, 51, 51;
+
+    --gray: rgb(85, 85, 85);
+    --gray: 85, 85, 85;
+    --light-gray: rgb(141, 141, 141);
+    --light-gray: 141, 141, 141;
+    --lighter-gray: rgb(173, 173, 173);
+    --lighter-gray: 173, 173, 173;
+    --white: 255, 255, 255;
+    
+
 }
+
 body {
     position: relative;
+    background-color: rgb(var(--darker-blue));
+    color: rgb(var(--light-gray));
   }
-  section{
-    padding-top: 56px;
+section{
+    padding-top: 4em;
 }
+
+.h2{
+    color: rgb(var(--lighter-gray));
+}
+
+.h2::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(var(--light-gray));
+}
+
+

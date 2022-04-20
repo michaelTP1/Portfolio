@@ -1,10 +1,13 @@
 import React from "react";
 import "./main.css";
+import { useNav } from '../../customHooks/useNav';
+
 
 function mapSkillValues(stack) {
-  console.log(stack);
+  
+
   return (
-    <ul className="list-group">
+    <ul  className="list-group">
       {stack.skills.map(function (skill) {
         return (
           <li key={skill.name} className="list-goup-item">
@@ -28,11 +31,14 @@ function mapSkillValues(stack) {
 export default function Skills(props) {
   var backend = props.skills[0];
   var frontend = props.skills[1];
+
+  const skillsRef= useNav("Skills");
+
   return (
-    <div id="skills" className="section">
+    <div ref={skillsRef} id="skills" className="section">
       <div className="Knowledge">
         <p className="h2 text-center">
-          <b>Knowledge</b>
+          <b>Skills</b>
         </p>
         <div className="skills row">
           <div className="col-12 col-md-2" />

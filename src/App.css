@@ -1,0 +1,11 @@
+.gradient{
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(var(--darker-gray), 100%),
+     rgba(var(--darker-blue), 100%));
+    
+}
+
+.gradient::before{
+    content: '';    
+}

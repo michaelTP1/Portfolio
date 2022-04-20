@@ -1,7 +1,7 @@
 .work-info {
-    border-left: 3px solid rgba(150, 189, 223, 1);
+    border-left: 3px solid rgb(var(--dark-blue));
     position: relative;
-    background-color: rgba(150, 189, 223, 0.4);
+    background-color: rgba( var(--dark-blue), 0.5);
     padding-top: 3px;
 }
 
@@ -13,7 +13,7 @@
     right: 0px;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 10px solid rgba(150, 189, 223, 1);
+    border-right: 10px solid rgb(var(--dark-blue));
 }
 
 .time {
