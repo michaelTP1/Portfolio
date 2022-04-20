@@ -6,8 +6,10 @@ a:active{
     text-decoration: none;
 }
 :root{
+    --darkest-blue: rgb(0,18,25);
     --darkest-blue: 0,18,25;
-    --darker-blue: 26,23,39;
+    --darker-blue: rgb(38, 33, 62);
+    --darker-blue: 38, 33, 62;
     --dark-blue: 0,95,115;
     --blue: 10,147,150;
     --light-blue: 148, 210, 189;

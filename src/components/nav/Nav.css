@@ -1,6 +1,6 @@
 nav {
 	text-align: center;
-	background-color: rgba(var(--dark-gray), 0.7);
+	background-color: rgba(var(--dark-gray), 0.95);
 	width: 100%;
 	position: fixed;
 	z-index: 10;
@@ -11,8 +11,9 @@ nav {
 
 nav span {
 	border-bottom: 1px solid transparent;
-	transition: border-bottom 0.2s ease;
-	transition-delay: 0.25s;
+	transition: border-bottom 0.2s ;
+	transition: color 0.2s ;
+	transition-delay: 0.05s;
 	margin: 1em;
 	padding-bottom: 0.3em;
 }
@@ -20,5 +21,6 @@ nav span {
 
 
 nav span.activeClass {
-	border-bottom-color: var(--blue);
+	color:  rgb(var(--dark-blue));
+	border-bottom-color: rgb(var(--dark-blue));
 }
