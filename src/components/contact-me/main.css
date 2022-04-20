@@ -1,11 +1,15 @@
 .email-link {
     display: flex;
     justify-content: center;
-    color: lightblue;
     background-color: transparent;
-    border: 1px solid darkblue;
+    border: 3px solid rgb(var(--dark-blue));
+    background-color: rgb(var(--blue));
     padding: 1.25rem 1.75rem;
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
+}
+.email-link:hover {
+    background-color: darkblue;
+    color: white;
 }

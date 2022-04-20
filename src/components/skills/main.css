@@ -2,3 +2,11 @@
     width: 100%;
     height: 100%;
 }
+
+.skill{
+    color : rgb(var(--light-gray));
+    background-color: rgb(var(--darker-gray));
+}
+.sub-skill{
+    background-color: rgb(var(--dark-blue));
+}
