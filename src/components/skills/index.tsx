@@ -15,7 +15,7 @@ function mapSkillValues(stack) {
             <ul className="list-group">
               {skill.frameworks.map(function (frameworks) {
                 return (
-                  <li key={frameworks.name} className="sub-skill list-group-item">
+                  <li key={frameworks.name} className="sub-skill list-group-item text-center">
                     <span>{frameworks.name}</span>
                   </li>
                 );
